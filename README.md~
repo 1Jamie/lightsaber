@@ -1,19 +1,3 @@
-# basic setup
-there are some extra tools here from the main lightsaber including the settingup_computer_for_spark.sh and building-installing.sh. They are not complex tools but just for the use of ease of setup and for new contributors to setup easily. Also you will notice that there is the v18D_night_v2 in this repo and that is also for making ease of access and setup. Everthing in here still works like the other repo just with some extra stuff that is all.
-
-For first time run:
-settingup_computer_for_spark.sh
-flash you device to the v18D_nightly_v2 by opening the v18D_nightly_v2 dir then running the ./flash.sh with you device inserted in fastboot mode.
-After doing that you will want to enable developer tools from the webIDE.
-to do that you will want to connect device to webIDE, select the runtime drop down then runtime info and click the button that says request higher privilage. 
-YOU HAVE TO DO THAT BEFORE INSTALLING THE SPARK GAIA OR IT WILL NOT WORK RIGHT!
-After all that has been complete all you should have to do from there is run the scrip:
-building-install.sh
-
-from then on for the most part that is all you should have to run to flash the gaia for spark when you need to.
-
-(i will try to keep updating this for everyone so it keeps gaia up to date)
-
 # Lightsaber
 Lightsaber build documentation and tool to flash Gaia and custom apps.
 

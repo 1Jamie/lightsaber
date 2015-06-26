@@ -1,0 +1,10 @@
+##sudo apt-get install nodejs-legacy
+##sudo npm install -g bower && sudo npm install -g gulp && sudo npm install -g apm && sudo npm install -g grunt-cli && sudo npm install -g browserify
+cd /v18D_nightly_v2
+./flash.sh
+read -p "enable developer tools and enable adb then press any key to continue... " -n1 -s
+make install
+make sync
+GAIA_DEV_PIXELS_PER_PX=2.25 DEVICE_DEBUG=1 MOZILLA_OFFICIAL=1 make reset-gaia
+
+
